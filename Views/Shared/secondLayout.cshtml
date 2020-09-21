@@ -3,7 +3,6 @@
 }
 
 <!DOCTYPE html>
-<!-- saved from url=(0094)https://material-components.github.io/material-components-web-catalog/#/component/drawer/modal -->
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -16,6 +15,7 @@
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="~/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <title>@ViewData["Title"]</title>
   </head>
@@ -25,8 +25,8 @@
       <div class="drawer-frame-root">
         <aside class="mdc-drawer mdc-drawer--modal">
           <div class="mdc-drawer__header">
-            <h3 class="mdc-drawer__title">Mail</h3>
-            <h6 class="mdc-drawer__subtitle">email@material.io</h6>
+            <h3 class="mdc-drawer__title">not too salty</h3>
+            <h6 class="mdc-drawer__subtitle">make food, not war</h6>
           </div>
           <div class="mdc-drawer__content">
             <nav class="mdc-list">
@@ -40,44 +40,11 @@
                   class="material-icons mdc-list-item__graphic"
                   aria-hidden="true"
                 >
-                  inbox</i
-                >Inbox</a
-              >
-              <a
-                class="mdc-list-item"
-                href="https://material-components.github.io/material-components-web-catalog/#"
-                tabindex="-1"
-              >
-                <i
-                  class="material-icons mdc-list-item__graphic"
-                  aria-hidden="true"
-                  >star</i
-                >Star</a
-              >
-              <a
-                class="mdc-list-item"
-                href="https://material-components.github.io/material-components-web-catalog/#"
-                tabindex="-1"
-              >
-                <i
-                  class="material-icons mdc-list-item__graphic"
-                  aria-hidden="true"
-                  >send</i
-                >Sent Mail</a
-              >
-              <a
-                class="mdc-list-item"
-                href="https://material-components.github.io/material-components-web-catalog/#"
-                tabindex="-1"
-              >
-                <i
-                  class="material-icons mdc-list-item__graphic"
-                  aria-hidden="true"
-                  >drafts</i
-                >Drafts</a
+                  home</i
+                >Home</a
               >
               <hr class="mdc-list-divider" />
-              <h6 class="mdc-list-group__subheader">Labels</h6>
+              <h6 class="mdc-list-group__subheader">Genres</h6>
               <a
                 class="mdc-list-item"
                 href="https://material-components.github.io/material-components-web-catalog/#"
@@ -86,8 +53,8 @@
                 <i
                   class="material-icons mdc-list-item__graphic"
                   aria-hidden="true"
-                  >bookmark</i
-                >Family</a
+                  >menu_book</i
+                >Breakfast</a
               ><a
                 class="mdc-list-item"
                 href="https://material-components.github.io/material-components-web-catalog/#"
@@ -95,8 +62,8 @@
                 ><i
                   class="material-icons mdc-list-item__graphic"
                   aria-hidden="true"
-                  >bookmark</i
-                >Friends</a
+                  >menu_book</i
+                >Lunch</a
               ><a
                 class="mdc-list-item"
                 href="https://material-components.github.io/material-components-web-catalog/#"
@@ -104,10 +71,9 @@
                 ><i
                   class="material-icons mdc-list-item__graphic"
                   aria-hidden="true"
-                  >bookmark</i
-                >Work</a
+                  >menu_book</i
+                >Dinner</a
               >
-              <hr class="mdc-list-divider" />
               <a
                 class="mdc-list-item"
                 href="https://material-components.github.io/material-components-web-catalog/#"
@@ -115,17 +81,8 @@
                 ><i
                   class="material-icons mdc-list-item__graphic"
                   aria-hidden="true"
-                  >settings</i
-                >Settings</a
-              ><a
-                class="mdc-list-item"
-                href="https://material-components.github.io/material-components-web-catalog/#"
-                tabindex="-1"
-                ><i
-                  class="material-icons mdc-list-item__graphic"
-                  aria-hidden="true"
-                  >announcement</i
-                >Help &amp; feedback</a
+                  >menu_book</i
+                >Dessert</a
               >
             </nav>
           </div>
@@ -154,6 +111,66 @@
           <div class="drawer-main-content">
             <div class="mdc-top-app-bar--fixed-adjust"></div>
               @RenderBody()
+          </div>
+        </div>
+      </div>
+
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
+            <h5 class="title font-bold">Footer Content</h5>
+            <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+            <h5 class="title font-bold">Links</h5>
+            <ul>
+                <li><a href="#!">Link 1</a></li>
+                <li><a href="#!">Link 2</a></li>
+                <li><a href="#!">Link 3</a></li>
+                <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+            <h5 class="title font-bold">Links</h5>
+            <ul>
+                <li><a href="#!">Link 1</a></li>
+                <li><a href="#!">Link 2</a></li>
+                <li><a href="#!">Link 3</a></li>
+                <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+            <h5 class="title font-bold">Links</h5>
+            <ul>
+                <li><a href="#!">Link 1</a></li>
+                <li><a href="#!">Link 2</a></li>
+                <li><a href="#!">Link 3</a></li>
+                <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+            <h5 class="title font-bold">Links</h5>
+            <ul>
+                <li><a href="#!">Link 1</a></li>
+                <li><a href="#!">Link 2</a></li>
+                <li><a href="#!">Link 3</a></li>
+                <li><a href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 centered-text">
+            <ul>
+                <li>
+                    <h5 class="mb-1">Register for free</h5>
+                </li>
+                <button class="mdc-button mdc-button--raised">  <span class="mdc-button__ripple"></span> Learn More</button>
+            </ul>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 centered-text background-dark-grey">
+                © 2017 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
           </div>
         </div>
       </div>

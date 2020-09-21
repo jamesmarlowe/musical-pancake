@@ -1,3 +1,7 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .mdc-top-app-bar {
   background-color: #9dacff;
   color: #000000;
@@ -31,4 +35,29 @@
 .demo-card__title,
 .demo-card__subtitle {
   margin: 0;
+}
+
+.mdc-layout-grid {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mdc-layout-grid__inner {
+  margin-top: 1rem;
+}
+
+.mdc-layout-grid__cell {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.mdc-layout-grid__cell ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.background-dark-grey {
+  background-color: rgba(0, 0, 0, 0.4);
 }
