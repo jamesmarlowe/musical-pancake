@@ -7,3 +7,28 @@
 .mdc-top-app-bar .mdc-top-app-bar__navigation-icon {
   color: #000000;
 }
+
+.demo-card {
+  width: 350px;
+  display: inline-block;
+}
+
+.demo-card__primary {
+  padding: 1rem;
+}
+
+.demo-card__secondary {
+  padding: 1rem 1rem 8px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.demo-card__media-content {
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+}
+
+.demo-card__title,
+.demo-card__subtitle {
+  margin: 0;
+}
